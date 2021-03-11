@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#workex">Work Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+      </ul>
+    </div>
+    
+    
+
+    <section id = "summary">
+      
+      <h2>Summary</h2>
+    
+       
+      <img style="vertical-align:middle; float: left;" src = "elon_musk.jpg" height="500"  alt = "elon">
+      <div id="intro" >
+        <h2> HELLO I AM ELON </h2>
+        <p> I am a business magnate, industrial designer, and engineer. I am also the founder, CEO, CTO, and chief designer of SpaceX; early investor, CEO, and product architect of Tesla, Inc.; founder of The Boring Company; co-founder of Neuralink; and co-founder and initial co-chairman of OpenAI. I am also one of the richest people in the world. 
+        </p>
+      
+    </section>
+
+    <section id = "workex">
+      <h2>Work Experience</h2>
+      <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <p>CEO of SpaceX</p>
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            <img src = "spacex.png" height = "250" width ="auto" alt = "spacex">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <p>CEO of Tesla Motors</p>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <img src = "tesla.png" height = "250" width ="auto" alt = "tesla">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+               <p>Founder of The Boring Company</p>
+               
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <img src = "tbc.png" height = "250" width ="auto" alt = "tbc">
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section id = "projects">
+      <h2>Projects</h2>
+      <div id="accordionTwo">
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Tesla Model 3
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionTwo">
+          <div class="card-body">
+            <img src = "model-3.png" height = "250" width ="auto" alt = "tesla model 3">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              SpaceX Falcon Heavy
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionTwo">
+          <div class="card-body">
+            <img src = "falconheavy.jpg" height = "250" width ="auto" alt = "falconheavy">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingSix">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+               SpaceX HyperLoop 
+            </button>
+          </h5>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionTwo">
+          <div class="card-body">
+            <img src = "hyperloop.jpg" height = "250" width ="auto" alt = "hyperloop">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+    <section id = "achievements">
+      <h2>Achievements</h2>
+       <div id="accordionThree">
+      <div class="card">
+        <div class="card-header" id="headingSeven">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              Cofounded NeuraLink
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionThree">
+          <div class="card-body">
+            <p>Founded in 2016</p>
+            <img src = "neuralink.png" height = "250" width ="auto" alt = "nerualink">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingEight">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+              Cofounded OpenAI
+            </button>
+          </h5>
+        </div>
+        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionThree">
+          <div class="card-body">
+            <p>Founded December 11, 2015<p>
+            <img src = "openai.jpg" height = "250" width ="auto" alt = "openai">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingNine">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+               Musk Foundation
+            </button>
+          </h5>
+        </div>
+        <div id="collapseNine" class="collapse" aria-labelledby="headingThree" data-parent="#accordionThree">
+          <div class="card-body">
+            The Musk Foundation is a non-profit organization.
+          </div>
+        </div>
+      </div>
+    </div>
+      </section>
+    
+    <section id = "hobbies">
+      <h2>Hobbies</h2>
+      <div id="accordionFour">
+      <div class="card">
+        <div class="card-header" id="headingTen">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+              Twitter
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionFour">
+          <div class="card-body">
+            <img src = "tweet.jpg" height = "250" width ="auto" alt = "tweet">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingEleven">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+              Smoking
+            </button>
+          </h5>
+        </div>
+        <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionFour">
+          <div class="card-body">
+            <img src = "smoking.gif" height = "250" width ="auto" alt = "smoking">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwelve">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+              Acting
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionFour">
+          <div class="card-body">
+            <img src = "cameo.jpg" height = "250" width ="auto" alt = "cameo">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+
+   
+    
+
+  </body>
+</html>
